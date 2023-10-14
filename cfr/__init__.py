@@ -3,6 +3,10 @@ from pathlib import Path
 __all__ = ("javaCompile",)
 import typing
 from pathlib import Path
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/cfr.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
+
 from JAbs import SelectedJVMInitializer
 
 cfrReaderNs = "org.benf.cfr.reader"
